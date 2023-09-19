@@ -180,6 +180,10 @@ button:hover {
     display: flex;
     flex-direction: row;
 }
+.container-2 h2{
+    font-size: 15px;
+    color: brown;
+}
 
 .container-2 img {
     max-width: 50%;
