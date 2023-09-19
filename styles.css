@@ -224,6 +224,60 @@ button:hover {
 .container-2 button:hover {
     background-color: beige;
 }
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 100%;
+}
+
+/* Estilos para el logo */
+.logoFooter {
+    float: left;
+}
+
+/* Estilos para los menús verticales */
+.menu-vertical {
+    float: left;
+    margin-right: 20px; /* Espacio entre menús */
+}
+
+.menu-vertical h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.menu-vertical ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-vertical ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para los iconos de redes sociales */
+.redes-sociales {
+    float: left;
+    margin-right: 20px; /* Espacio entre menús y redes sociales */
+}
+
+.redes-sociales i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Estilos para la ubicación y el mapa */
+.ubicacion {
+    float: right;
+    width: 50%; /* Ajustar el ancho según sea necesario */
+}
+
+/* Estilos para el mapa de Google Maps (ajustar según tus necesidades) */
+.google-maps {
+    width: 250px;
+    height: 250px;
+}
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: 1fr; /* Cambiar a una sola columna en pantallas más pequeñas */
