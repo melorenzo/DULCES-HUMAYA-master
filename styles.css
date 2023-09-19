@@ -1,0 +1,252 @@
+.navbar {
+    background-color: transparent; /* Hacer la barra de navegación transparente */
+    position: absolute; /* Colocar la barra en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white; /* Color del texto en la barra de navegación */
+    font-size: 18px;
+}
+
+/* Estilo para la sección hero con la imagen de fondo */
+.hero {
+    background-image: url('IMAGENES/Central/imagenCentral.png'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    height: 100vh; /* Ajustar la altura a la ventana gráfica */
+    position: relative; /* Colocar contenido encima de la imagen de fondo */
+}
+.content {
+    position: absolute;
+    top: 50%; /* Coloca el contenido a la mitad de la altura */
+    right: 0; /* Coloca el contenido a la derecha */
+    transform: translateY(-50%); /* Ajusta la posición vertical */
+    padding: 20px;
+    color: white; /* Color del texto */
+    width: 40%;
+}
+
+/* Estilo para el botón */
+button {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
+    color: white; /* Color del texto del botón */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8; /* Opacidad del botón */
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+button:hover {
+    opacity: 1; /* Opacidad al pasar el cursor sobre el botón */
+}
+.gray-bar {
+    background-color: gray; /* Color gris */
+    width: 100%; /* Ancho completo de la pantalla */
+    height: 60px;
+}
+.Productos{
+    font-size: 30px;
+    color: white; /* Color del texto */
+    text-align: center;
+    padding-top: 1%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Estilos para los elementos del grid */
+.grid-item {
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilos para las imágenes */
+.imageProductos {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para los botones */
+.btnProductos {
+    background-color: black;
+    color: burlywood;
+    border: burlywood 3px;
+    border-style: solid;
+    border-radius: 0%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btnProductos:hover {
+    background-color: #333; /* Cambiar el color al pasar el cursor */
+}
+.grid-text{
+    color: goldenrod;
+    text-align: center;
+    padding-top: 15%;
+}
+.grid-text h2{
+    font-size: 30px;
+    color: burlywood;
+}
+.grid-text p{
+    font-size: 20px;
+    color: burlywood;
+}
+.grid-text span{
+    font-size: 15px;
+    color: white;
+}
+.image-container {
+    position: relative;
+    max-width: 100%;
+}
+
+/* Estilos para la imagen */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para los elementos superpuestos */
+.overlay-elements {
+    position: absolute;
+    top: 30%; /* Alinea los elementos verticalmente en el centro */
+    left: 30%; /* Alinea los elementos horizontalmente en el centro */
+    transform: translate(-50%, -50%); /* Corrige la posición para centrarlos correctamente */
+    text-align: center;
+    color: white; /* Color del texto */
+}
+.overlay-elements h2{
+    color: rgb(124, 67, 2);
+    font-size: 50px;
+    padding-bottom: 2%;
+}
+.p1{
+    color: blanchedalmond;
+    font-size: 15px;
+    width: 75%;
+    text-align: justify;
+    padding-left: 20%;
+    padding-top: 2%;
+    
+}
+.probi{
+    color: rgb(124, 67, 2);
+    font-size: 20px;
+    padding-top: 5%;
+    text-align: center;
+}
+.overlay-elements button{
+    color: rgb(124, 67, 2);
+    border-radius: 0%;
+    border-style: solid;
+    background: transparent;
+    font-weight: bold;
+    
+}
+.container-1 {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el segundo container */
+.container-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-2 img {
+    max-width: 50%;
+    height: auto;
+}
+
+.container-2 form {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.contenedorForm input[type="text"],
+.contenedorForm input[type="email"],
+.contenedorForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: burlywood;
+}
+.contenedorForm{
+    width: 50%;
+    margin: 0 auto; /* Esto centra horizontalmente el container */
+    background-color: #f0f0f0;
+    padding: 20px;
+    padding-left: 200px;
+}
+
+.container-2 button {
+    background-color: transparent;
+    color: burlywood;
+    padding: 10px 20px;
+    border: solid 2px;
+    border-radius: 0%;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+.container-2 button:hover {
+    background-color: beige;
+}
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Cambiar a una sola columna en pantallas más pequeñas */
+    }
+    .hero {
+        background-image: url('IMAGENES/Central/imagenCentral.png'); /* Ruta de tu imagen de fondo */
+        background-size: cover;
+        height: 50vh; /* Ajustar la altura a la ventana gráfica */
+        position: relative; /* Colocar contenido encima de la imagen de fondo */
+    }
+    .imageProductos {
+        width: 100%;
+        height: auto;
+    }
+    .grid-item {
+        background-color: black;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 100%;
+    }
+    .content {
+        display: none;
+    }
+    .grid-text{
+        color: goldenrod;
+        text-align: center;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+}
