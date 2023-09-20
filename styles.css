@@ -102,7 +102,7 @@ button:hover {
 .grid-text{
     color: goldenrod;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 5%;
 }
 .grid-text h2{
     font-size: 30px;
@@ -130,7 +130,7 @@ button:hover {
 /* Estilos para los elementos superpuestos */
 .overlay-elements {
     position: absolute;
-    top: 30%; /* Alinea los elementos verticalmente en el centro */
+    top: 45%; /* Alinea los elementos verticalmente en el centro */
     left: 30%; /* Alinea los elementos horizontalmente en el centro */
     transform: translate(-50%, -50%); /* Corrige la posición para centrarlos correctamente */
     text-align: center;
@@ -168,6 +168,7 @@ button:hover {
     color: white;
     padding: 20px;
     text-align: center;
+    background-color: black;
 }
 
 .container-1 img {
@@ -202,13 +203,16 @@ button:hover {
     padding: 10px;
     margin-bottom: 10px;
     background-color: burlywood;
+    
 }
 .contenedorForm{
-    width: 50%;
+    width: 100%;
     margin: 0 auto; /* Esto centra horizontalmente el container */
-    background-color: #f0f0f0;
-    padding: 20px;
-    padding-left: 200px;
+    background-color: white;
+    display: grid;
+    place-items: center
+    
+    
 }
 
 .container-2 button {
@@ -306,5 +310,13 @@ footer {
         text-align: center;
         padding-top: 15%;
         padding-bottom: 15%;
+    }
+    .container-2 img {
+        display: none;
+    }
+    
+    .container-2 form {
+        max-width: 100%;
+        padding: 20px;
     }
 }
