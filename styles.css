@@ -187,12 +187,12 @@ button:hover {
 }
 
 .container-2 img {
-    max-width: 50%;
+    max-width: 30%;
     height: auto;
 }
 
 .container-2 form {
-    max-width: 50%;
+    max-width: 70%;
     padding: 20px;
 }
 
@@ -233,6 +233,8 @@ footer {
     color: white;
     padding: 20px;
     height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 /* Estilos para el logo */
@@ -267,8 +269,11 @@ footer {
 }
 
 .redes-sociales i {
-    font-size: 24px;
+    font-size: 30px;
     margin-right: 10px;
+    color: white;
+    height: 50px;
+  width: 100%;
 }
 
 /* Estilos para la ubicación y el mapa */
