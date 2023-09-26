@@ -1,6 +1,6 @@
 .navbar {
-    background-color: transparent; /* Hacer la barra de navegación transparente */
-    position: absolute; /* Colocar la barra en la parte superior */
+    background-color: transparent; 
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
@@ -21,49 +21,49 @@
 
 .navbar a {
     text-decoration: none;
-    color: white; /* Color del texto en la barra de navegación */
+    color: white; 
     font-size: 18px;
 }
 
-/* Estilo para la sección hero con la imagen de fondo */
+
 .hero {
-    background-image: url('IMAGENES/Central/imagenCentral.png'); /* Ruta de tu imagen de fondo */
+    background-image: url('IMAGENES/Central/imagenCentral.png'); 
     background-size: cover;
-    height: 100vh; /* Ajustar la altura a la ventana gráfica */
-    position: relative; /* Colocar contenido encima de la imagen de fondo */
+    height: 100vh; 
+    position: relative; 
 }
 .content {
     position: absolute;
-    top: 50%; /* Coloca el contenido a la mitad de la altura */
-    right: 0; /* Coloca el contenido a la derecha */
-    transform: translateY(-50%); /* Ajusta la posición vertical */
+    top: 50%; 
+    right: 0; 
+    transform: translateY(-50%); 
     padding: 20px;
-    color: white; /* Color del texto */
+    color: white;
     width: 40%;
 }
 
-/* Estilo para el botón */
+
 button {
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
-    color: white; /* Color del texto del botón */
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    opacity: 0.8; /* Opacidad del botón */
-    border-radius: 15px; /* Bordes redondeados */
+    opacity: 0.8; 
+    border-radius: 15px; 
 }
 
 button:hover {
-    opacity: 1; /* Opacidad al pasar el cursor sobre el botón */
+    opacity: 1; 
 }
 .gray-bar {
-    background-color: gray; /* Color gris */
-    width: 100%; /* Ancho completo de la pantalla */
+    background-color: gray; 
+    width: 100%; 
     height: 60px;
 }
 .Productos{
     font-size: 30px;
-    color: white; /* Color del texto */
+    color: white; 
     text-align: center;
     padding-top: 1%;
 }
@@ -72,20 +72,20 @@ button:hover {
     grid-template-columns: repeat(2, 1fr);
 }
 
-/* Estilos para los elementos del grid */
+
 .grid-item {
     background-color: black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-/* Estilos para las imágenes */
+
 .imageProductos {
     width: 100%;
     height: auto;
 }
 
-/* Estilos para los botones */
+
 .btnProductos {
     background-color: black;
     color: burlywood;
@@ -97,7 +97,7 @@ button:hover {
 }
 
 .btnProductos:hover {
-    background-color: #333; /* Cambiar el color al pasar el cursor */
+    background-color: #333; 
 }
 .grid-text{
     color: goldenrod;
@@ -121,20 +121,20 @@ button:hover {
     max-width: 100%;
 }
 
-/* Estilos para la imagen */
+
 .image-container img {
     max-width: 100%;
     height: auto;
 }
 
-/* Estilos para los elementos superpuestos */
+
 .overlay-elements {
     position: absolute;
-    top: 45%; /* Alinea los elementos verticalmente en el centro */
-    left: 30%; /* Alinea los elementos horizontalmente en el centro */
-    transform: translate(-50%, -50%); /* Corrige la posición para centrarlos correctamente */
+    top: 45%; 
+    left: 30%; 
+    transform: translate(-50%, -50%); 
     text-align: center;
-    color: white; /* Color del texto */
+    color: white; 
 }
 .overlay-elements h2{
     color: rgb(124, 67, 2);
@@ -176,7 +176,7 @@ button:hover {
     height: auto;
 }
 
-/* Estilos para el segundo container */
+
 .container-2 {
     display: flex;
     flex-direction: row;
@@ -207,7 +207,7 @@ button:hover {
 }
 .contenedorForm{
     width: 100%;
-    margin: 0 auto; /* Esto centra horizontalmente el container */
+    margin: 0 auto; 
     background-color: white;
     display: grid;
     place-items: center
@@ -237,15 +237,15 @@ footer {
     grid-template-columns: repeat(5, 1fr);
 }
 
-/* Estilos para el logo */
+
 .logoFooter {
     float: left;
 }
 
-/* Estilos para los menús verticales */
+
 .menu-vertical {
     float: left;
-    margin-right: 20px; /* Espacio entre menús */
+    margin-right: 20px; 
 }
 
 .menu-vertical h4 {
@@ -262,10 +262,10 @@ footer {
     margin-bottom: 10px;
 }
 
-/* Estilos para los iconos de redes sociales */
+
 .redes-sociales {
     float: left;
-    margin-right: 20px; /* Espacio entre menús y redes sociales */
+    margin-right: 20px; 
 }
 
 .redes-sociales i {
@@ -276,13 +276,13 @@ footer {
   width: 100%;
 }
 
-/* Estilos para la ubicación y el mapa */
+
 .ubicacion {
     float: right;
-    width: 50%; /* Ajustar el ancho según sea necesario */
+    width: 50%; 
 }
 
-/* Estilos para el mapa de Google Maps (ajustar según tus necesidades) */
+
 .google-maps {
     width: 250px;
     height: 250px;
@@ -295,21 +295,21 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-/* Estilos para las tarjetas de recetas */
+
 .receta-card {
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 16px;
     margin: 16px;
-    width: 300px; /* Ajusta el ancho según tus necesidades */
+    width: 300px; 
     background-color: #fff;
     transition: transform 0.2s ease-in-out;
 }
 
 
 .receta-card:hover {
-    transform: scale(1.05); /* Efecto de escala al pasar el cursor por encima */
+    transform: scale(1.05); 
 }
 
 .receta-card img {
@@ -349,13 +349,13 @@ footer {
 }
 @media (max-width: 768px) {
     .grid-container {
-        grid-template-columns: 1fr; /* Cambiar a una sola columna en pantallas más pequeñas */
+        grid-template-columns: 1fr; 
     }
     .hero {
-        background-image: url('IMAGENES/Central/imagenCentral.png'); /* Ruta de tu imagen de fondo */
+        background-image: url('IMAGENES/Central/imagenCentral.png'); 
         background-size: cover;
-        height: 50vh; /* Ajustar la altura a la ventana gráfica */
-        position: relative; /* Colocar contenido encima de la imagen de fondo */
+        height: 50vh; 
+        position: relative; 
     }
     .imageProductos {
         width: 100%;
@@ -383,5 +383,13 @@ footer {
     .container-2 form {
         max-width: 100%;
         padding: 20px;
+    }
+    .contenedorRecetas{
+        background-color: burlywood;
+        padding: 20px;
+        padding-left: 15%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
