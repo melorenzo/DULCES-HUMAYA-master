@@ -287,6 +287,66 @@ footer {
     width: 250px;
     height: 250px;
 }
+.contenedorRecetas{
+    background-color: burlywood;
+    padding: 20px;
+    padding-left: 15%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* Estilos para las tarjetas de recetas */
+.receta-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.receta-card:hover {
+    transform: scale(1.05); /* Efecto de escala al pasar el cursor por encima */
+}
+
+.receta-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.receta-card p {
+    font-size: 14px;
+    color: #333;
+}
+
+.receta-card button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.receta-card button:hover {
+    background-color: #0056b3;
+}
+.tituloRecetas{
+    text-align: center;
+}
+.botonRecetas{
+    top: 50%;
+    right: 0%;
+    left: 50%;
+    
+}
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: 1fr; /* Cambiar a una sola columna en pantallas más pequeñas */
